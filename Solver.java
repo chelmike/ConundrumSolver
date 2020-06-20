@@ -41,7 +41,7 @@ public class Solver implements ConundrumSolver {
 
 //                        System.out.printf("  State is not visited. New path: %s%n", newPath);
 //                        System.out.println("  Visited states count: " + visitedStates.size());
-                        System.out.printf("  Curr path: %s%n", currPath);
+//                        System.out.printf("  Curr path: %s%n", currPath);
 
                         pathsToAdd.add(newPath);
                         if (state.getValue().isFinal()) {
